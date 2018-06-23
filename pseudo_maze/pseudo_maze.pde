@@ -1,4 +1,4 @@
-int tileSize = 20;
+int tileSize = 60;
 
 void setup() {
   size(1000, 1000);

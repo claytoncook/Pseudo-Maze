@@ -11,11 +11,9 @@ void draw() {
       if (Math.random() > 0.45) {
         // /
         line(x, y, x + tileSize, y);
-        println("forward");
       } else {
         // \
         line(x, y, x + tileSize, y + tileSize);
-        println("back");
       }
     }
   }
